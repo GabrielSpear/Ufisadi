@@ -22,3 +22,8 @@ $("form#start-page").submit(function(event) {
     var inputtedMessage = $(this).find("input.message").val();
 });
 });
+$(document).ready(function(){
+    $("#submit").click(function(){
+        alert("Form submitted successfully!");
+    });
+});
