@@ -13,7 +13,7 @@
   <h1> Corruption Form</h1>
 
   <div class="container">
-    <form action="action_page.php">
+    <form id="start-page">
       <div class="row">
         <div class="col-25">
           <label for="subject">Subject:</label>
@@ -60,14 +60,15 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-25">
-          <label for="position">Position of offender:</labe<input type="submit" value="Submit"url>l>
-        </div>
-        <div class="col-75">
-          <input type="text" id="position" name="posittion">
-        </div>
-      </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="position">Position of offender:</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="position" name="position">
+              </div>
+            </div>
 
       <div class="row">
         <div class="col-25">
@@ -87,16 +88,17 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col 75">
-          <a href="index.html"><button class="btn">Submit</button></a>
-        </div>
-      </div>
-
+      <button id="submit" class="btn-success btn">Submit</button><br></br>
+      <a href="index.html"><button id="home" class="btn-success btn">Go to home page</button></a>
       <h3>Disclaimer:</h3>
       <p>This disclaimer informs readers that the views, thoughts, and opinions expressed in the text belong solely to the author.We intend to offer our best security measures, with constant upgrades.</p>
-    </form>
-  </div>
+</form>
+</div>
+</div>
+
+
+
+
 </body>
 
 </html>
