@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  color: blue;
 }
 
 h2 {
@@ -8,6 +9,11 @@ h2 {
 
 .logo {
   text-align: center;
+}
+
+.page-footer {
+  text-align: right;
+  background-color: cyan;
 }
 
 <style>.dropdown {
