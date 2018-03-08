@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  color: black;
+  color: cyan;
 }
 
 h2 {
@@ -29,9 +29,14 @@ h4 {
   background-color: green;
 }
 
+#Home {
+  color: white;
+  font-size: 22px;
+}
+
 .page-footer {
   text-align: right;
-  background-color: #a6f3fc;
+  background-color: #66c2ff;
 }
 
 header {
@@ -135,10 +140,10 @@ input[type=submit] {
 }
 
 .background2 {
-  background-image: url("../img/Lfisadi.jpg");
+  background-image: url("../img/LkFisadi.jpg");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 1500px 660px;
+  background-size: 1500px 760px;
 }
 
 body {
