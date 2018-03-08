@@ -120,6 +120,14 @@ input[type=submit] {
   text-align: right;
 }
 
+.btn-block {
+  background-color: #96f7f7;
+  text-align: center;
+}
+
 body {
-  background-clip: u
+  background-image: url("../img/Ufisa10.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: sticky;
 }
