@@ -12,7 +12,7 @@ function Report(subject,type,county,position,report,message) {
 // user interface logic
 $(document).ready(function() {
 $("form#start-page").submit(function(event) {
-    event.preventDefault();
+  event.preventDefault();
 
     var inputtedSubject = $(this).find("input.inputtedSubject").val();
     var inputtedType = $(this).find("input.type").val();
@@ -23,7 +23,7 @@ $("form#start-page").submit(function(event) {
 });
 });
 $(document).ready(function(){
-    $("#submit").click(function(){
-        alert("Form submitted successfully!");
+    $("#submit").click(function(event){
+      alert("Form submitted successfully!");
     });
-});
+  });
