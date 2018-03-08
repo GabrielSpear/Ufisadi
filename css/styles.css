@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  color: blue;
+  color: black;
 }
 
 h2 {
@@ -23,9 +23,15 @@ h4 {
   text-align: center;
 }
 
+.jumbotron0 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: green;
+}
+
 .page-footer {
   text-align: right;
-  background-color: cyan;
+  background-color: #a6f3fc;
 }
 
 header {
@@ -70,6 +76,7 @@ input[type=submit] {
   border-radius: 10px;
   background-color: #f2f2f2;
   padding: 20px;
+  background: transparent;
 }
 
 /* Floating column for labels: 25% width */
@@ -112,22 +119,34 @@ input[type=submit] {
   float: right;
 }
 
-.container {
-  background-color: transparent;
+.container1 {
+  background-size: cover;
+  padding-right: 0px;
+  padding-left: 50px;
 }
 
 .link {
-  text-align: right;
-}
-
-.btn-block {
-  background-color: #96f7f7;
   text-align: center;
 }
 
-body {
-  background-image: url("../img/Ufisa10.jpg");
-  background-position: center;
+.btn-block {
+  background-color: #66c2ff;
+  text-align: center;
+}
+
+.background2 {
+  background-image: url("../img/Lfisadi.jpg");
   background-repeat: no-repeat;
-  position: sticky;
+  background-position: top;
+  background-size: 1500px 660px;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url("../img/Ufisa10.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 1500px 660px;
+  text-align: center;
 }
