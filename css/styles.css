@@ -14,19 +14,18 @@ h3 {
   text-align: center;
 }
 
-h4 {
-  text-align: right;
-  color: cyan;
+h5 {
+  font-size: 50px;
+  color: #06194f;
 }
 
 .logo {
   text-align: center;
 }
 
-.jumbotron0 {
+.jumbotron {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: green;
 }
 
 #Home {
@@ -35,8 +34,9 @@ h4 {
 }
 
 .page-footer {
-  text-align: right;
+  text-align: center;
   background-color: #66c2ff;
+  font-size: 10px;
 }
 
 header {
